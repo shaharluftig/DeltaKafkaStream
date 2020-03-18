@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ElasticQSMCardo.iml" filepath="$PROJECT_DIR$/.idea/ElasticQSMCardo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DeltaKafkaStream.iml" filepath="$PROJECT_DIR$/.idea/DeltaKafkaStream.iml" />
     </modules>
   </component>
 </project>

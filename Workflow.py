@@ -1,8 +1,7 @@
-from Steps.CsvReader import CsvReader
-from Steps.ElasticQSM import ElasticQSM
+from Config import TOPICS, SERVERS, PATH
+from Steps.DeltaKafkaStream import DeltaKafkaStream
 
 
 def execute_workflow(context):
-    df = CsvReader("Datasets/covid_19_data.csv", True).process(context).persist()
-    df = ElasticQSM("try_index").process(df, context)
+    df = DeltaKafkaStream(PATH, SERVERS, TOPICS).process(context)
     return df
