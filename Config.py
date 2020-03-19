@@ -1,7 +1,8 @@
-# KAFKA Config
-TOPICS = "test"
-SERVERS = "localhost:9092"
-PATH = "C:/Users/shaha/Desktop/Projects/ElasticQSM/HdfsElasticQSM/try_index"
+# Stream Properties File Config
+KAFKA_TOPICS = "kafka_topics"
+KAFKA_SERVERS = "kafka_servers"
+INPUT_TABLE_PATH = "input_table_path"
+CHECKPOINT_LOCATION = "checkpoint_location"
 
 # SPARK Config
 JARS = "./Jars/delta-core_2.11-0.5.0.jar," \

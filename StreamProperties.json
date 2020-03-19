@@ -1,0 +1,6 @@
+{
+  "kafka_topics": "test",
+  "kafka_servers": "localhost:9092",
+  "input_table_path": "C:/Users/shaha/Desktop/Projects/ElasticQSM/HdfsElasticQSM/try_index",
+  "checkpoint_location": "./checkpoint"
+}
